@@ -1,10 +1,10 @@
 from abc import ABC, abstractmethod
-from site.domain.entities.book import Book
+from pages.domain.entities.book import Book
 
 class BookRepository(ABC):
     
     @abstractmethod
-    def create(self, id: str, title: str, author: str, genre: str) -> Book:
+    def create(self, book: Book) -> Book:
         pass
 
     @abstractmethod
@@ -14,6 +14,11 @@ class BookRepository(ABC):
     @abstractmethod
     def get_all(self) -> list[Book]:
         pass 
+
+    @abstractmethod
+    def get_by_id(self, book_id: str) -> Book | None:
+        pass
+
 
     @abstractmethod
     def delete(self, book_id:str) -> None:

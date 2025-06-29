@@ -1,5 +1,5 @@
-from site.domain.repositories.user_repo import UserRepository
-from site.domain.entities.user import User
+from pages.domain.repositories.user_repo import UserRepository
+from pages.domain.entities.user import User
 from typing import Optional
 
 class GetCurrentUserUseCase:

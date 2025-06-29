@@ -1,7 +1,7 @@
-from site.domain.repositories.user_repo import UserRepository
-from site.domain.entities.user import User
-from site.domain.value_objects.email import Email
-from site.domain.value_objects.password import Password
+from pages.domain.repositories.user_repo import UserRepository
+from pages.domain.entities.user import User
+from pages.domain.value_objects.email import Email
+from pages.domain.value_objects.password import Password
 from typing import Optional
 
 

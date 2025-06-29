@@ -1,5 +1,5 @@
-from site.domain.value_objects.email import Email
-from site.domain.value_objects.password import Password
+from pages.domain.value_objects.email import Email
+from pages.domain.value_objects.password import Password
 
 class User:
 

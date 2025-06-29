@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from site.domain.entities.user import User
+from pages.domain.entities.user import User
 
 class UserRepository(ABC):
     

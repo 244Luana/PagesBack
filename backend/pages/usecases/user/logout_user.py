@@ -1,4 +1,4 @@
-from site.domain.repositories.user_repo import UserRepository
+from pages.domain.repositories.user_repo import UserRepository
 
 class LogoutUserUseCase:
     def __init__(self, repository: UserRepository):
